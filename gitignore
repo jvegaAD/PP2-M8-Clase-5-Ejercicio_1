@@ -46,3 +46,8 @@ desktop.ini
 
 # Borradores personales
 0--Borrador/
+
+# Archivos de configuración del entorno
+*.env
+.env.*
+!.env.example
