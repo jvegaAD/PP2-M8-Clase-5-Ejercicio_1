@@ -1,0 +1,48 @@
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración del entorno
+*.env
+.env.*
+!.env.example
+
+# Archivos de base de datos SQLite
+*.sqlite3
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales de usuario
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+
+# Archivos generados por el IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de migración rotos o cachés
+*.~*
+
+# Carpeta de estáticos si es generada
+/staticfiles/
+
+# Borradores personales
+0--Borrador/
